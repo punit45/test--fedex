@@ -18,14 +18,16 @@
 // const newArr1 = arr.random();
 // console.log(newArr1);
 
+// shuffle the array
+
 
 let arr = [1,2,3,4,5];
 
- function(array){
-    let newArr = array.length;
-    let newAarr = random.Index;
+function shuffle(array) {
+  array.sort(() => Math.random() - 0.5);
+}
 
-    while( newAarr)
-
- }
+let arr = [1, 2, 3];
+shuffle(arr);
+console.log(arr);
 
